@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* *{
+    border: 2px solid gray;
+} */
+
+/* Define the @font-face rule */
+.protest-riot {
+    font-family: "Protest Riot", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+body{
+    background-color: #27272a;
+}  
