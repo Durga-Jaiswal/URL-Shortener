@@ -96,13 +96,13 @@ function UrlSearch() {
         <div className="flex items-center ms-auto space-x-2 rtl:space-x-reverse">
             <button className="text-lg font-medium text-zinc-200 bg-zinc-800 px-4 py-2 hover:bg-zinc-200 hover:text-zinc-800 rounded-lg dark:text-blue-500 dark:hover:bg-gray-700" href="#" 
             onClick={() => copyToClipBoard(shortenedUrl)}>{isCopied ? 'Copied' : 'Copy'}</button>
-            <button type="button"
+            {/* <button type="button"
              className="ms-auto -mx-1.5 -my-1.5 bg-zinc-100 text-zinc-800 hover:text-gray-900 rounded-lg focus:ring-2 focus:ring-gray-300 p-1.5 hover:bg-gray-100 inline-flex items-center justify-center h-8 w-8 dark:text-gray-500 dark:hover:text-white dark:bg-gray-800 dark:hover:bg-gray-700" data-dismiss-target="#toast-undo" aria-label="Close">
                 <span className="sr-only">Close</span>
                 <svg className="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 14">
                     <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6"/>
                 </svg>
-            </button>
+            </button> */}
         </div>
     </div>
 
